@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+    <link rel="shortcut icon" href="./myfile/r logo.png" type="image/x-icon">
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">Rohit</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Rohit</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="./myfile/pngfind.com-boss-baby-png-448267.png" alt="Rohit profile picture" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">Rohit Kumar</h1>
+        <p class="section__text__p2"><h4>
+            - A Front-End Developer with entry-level experience specializing in
+            web development, user interface design, HTML, and React JS
+          </h4></p>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('./assets/resume-example.pdf')"
+          >
+            Download CV
+          </button>
+          <button class="btn btn-color-1" onclick="location.href='./#contact'">
+            Contact Info
+          </button>
+        </div>
+        <div id="socials-container">
+          <img
+            src="./myfile/linkedin.png"
+            alt="My LinkedIn profile"
+            class="icon"
+            onclick="location.href='https://www.linkedin.com/in/rohit-kumar-684a6a263/'"
+          />
+          <img
+            src="./myfile/github.png"
+            alt="My Github profile"
+            class="icon"
+            onclick="location.href='https://github.com/Rohitkumar-05'"
+          />
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img
+            src="./myfile/pngfind.com-boss-baby-png-448267.png"
+            alt="Profile picture"
+            class="about-pic"
+          />
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="./myfile/experience.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <h3 style="color: black;">Skills</h3>
+              <p style="color: black;">Frontend Development</p>
+              <p  style="color: black;">Html, css , javaScript, Java, React, SQL</p>
+            </div>
+            <div class="details-container">
+              <img
+                src="./myfile/education.png"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3 style="color: black;">Education</h3>
+              <p style="color: black;">B.tech, Asansol Engineering College  <br>10th & 12th , Saraswati Vidya Mandir, Sinidih<br /></p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+                I am a passionate developer currently pusuing my B.Tech degree in Computer Science from Asansol Engineering College. I Love Coding since I was aware of it. I don't get bored sitting in front of my laptop screen and writing codes, instead I really enjoy coding not just to take job but it now has became my hobby.
+                <br>
+                <br>
+                Age :- 22
+            </br>
+                Email :- rohitkr926@gmail.com
+                <br>
+                College :- Asansol Engineering College
+                <br>
+                Place : Asansol, West Bengal
+        </br>
+            </p>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./myfile/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#experience'"
+      />
+    </section>
+    <section id="experience">
+      <p class="section__text__p1">Explore My</p>
+      <h1 class="title">Skills</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title">Frontend Development</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./myfile/html.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div >
+                  <h3 style="color: black;" >HTML</h3>
+                  <p style="color: black;" >Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./myfile/css.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3 style="color: black;" >CSS</h3>
+                  <p style="color: black;" >Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./myfile/bootstrap-logo-thumbnail-tech-companies.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3 style="color: black;" >Bootstrap</h3>
+                  <p style="color: black;" >Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./myfile/js.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3 style="color: black;" >JavaScript</h3>
+                  <p style="color: black;" >Basic</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./myfile/java.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3 style="color: black;"  >Java</h3>
+                  <p style="color: black;" >Basic</p>
+                </div>
+              </article>
+              <!-- <article>
+                <img
+                  src="./myfile/arrrr.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Material UI</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article> -->
+            </div>
+          </div>
+          <div class="details-container">
+            <h2 class="experience-sub-title">Frontend Development</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./myfile/sql.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3 style="color: black;" >SQL</h3>
+                  <p style="color: black;" >Basic</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./myfile/node.jpg"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3 style="color: black;" >Node JS</h3>
+                  <p style="color: black;" >Basic</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./myfile/react.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3 style="color: black;" >React JS</h3>
+                  <p style="color: black;" >Basic</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./myfile/github.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3  style="color: black;" >Git</h3>
+                  <p  style="color: black;" >Basic</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./myfile/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#projects'"
+      />
+    </section>
+    <section id="projects">
+      <p class="section__text__p1">Browse My Recent</p>
+      <h1 class="title">Projects</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./myfile/depositphotos_40493159-stock-photo-doctor-working-with-healthcare-icons.jpg"
+                alt="Project 1"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">AEC HEALTHCARE</h2>
+            
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/Rohitkumar-05"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/Rohitkumar-05'"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./myfile/portfolio.jpg"
+                alt="Project 2"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">PORTFOLIO</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://www.linkedin.com/in/rohit-kumar-684a6a263/'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/Rohitkumar-05'"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="./myfile/TOLL.png"
+                alt="Project 3"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">TOLLMART</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/Rohitkumar-05'"
+              >
+                Github
+              </button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href='https://github.com/Rohitkumar-05'"
+              >
+                Live Demo
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./myfile/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#contact'"
+      />
+    </section>
+    <section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="./myfile/email.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p><a href="mailto:rohitkr926@gmail.com">rohitkr926@gmail.com</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./myfile/linkedin.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://www.linkedin.com/in/rohit-kumar-684a6a263/">LinkedIn</a></p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright &#169; 2023 Rohit Kumar. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
